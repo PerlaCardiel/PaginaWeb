@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ body{
+ 	font-family: sans-serif;
+ 	font-size: 16px;
+ 	background: #DBE3F3;
+ }
+
+.contenedor{
+	width: 1000px;
+	margin: 20px;
+	overflow: hidden;
+	float: left;
+}
+
+header{ background: white;
+}
+
+header nav{ width: 100% }
+
+header nav ul {
+	width: 100%;
+	overflow:hidden; 
+
+}
+
+header nav ul li{ 
+	float:left;  
+	list-style: none;
+	display: inline-block;
+	margin: 20px;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 15px 20px;
+}
+
+header nav ul li a:hover{
+	color: white;
+	background: hotpink;
+}
+
+.main{
+	width: 680px;
+	float: left;
+}
+.main .imagen{
+	width: 100%;
+	background: pink;
+}
+
+.main .imagen img{
+	width: 100%;
+}
+
+.main .post{
+	padding: 40px;
+}
+
+.main .post h2{
+	color: purple;
+	margin-bottom: 20px;
+}
+
+.main .post p{
+	line-height: 27px;
+	color: purple;
+	margin-bottom: 15px;
+}
+
+aside{
+	width: 280px;
+	background: #3871F2;
+	padding: 20px;
+	float: left;	
+	color: white;
+	
+}
+
+aside .widget{
+	margin-bottom: 20px;
+}
+
+aside .widget h2{
+	color: yellow;
+	border-bottom: 2px solid yellow;
+	margin-bottom: 20px;
+}
+
+aside .widget ul{
+	list-style: none;
+}
+
+aside .widget ul li{
+	border-bottom: 1px solid white;
+	padding: 15px 0px;
+	
+}
+
+aside .widget ul li a{
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+}
+
+aside .widget ul li a:hover{
+	color: black;
+	background: yellow;
+}
+
+aside .widget p{
+	line-height: 27px;
+}
+footer{
+	width: 1000px;
+	background: #3871F2;
+	text-align: center;
+	padding: 35px 0px;
+	overflow: hidden;
+}
