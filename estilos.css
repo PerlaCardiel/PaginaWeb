@@ -10,7 +10,7 @@
 
 .contenedor{
 	width: 1000px;
-	margin: 20px;
+	margin: 20px auto;
 	overflow: hidden;
 	float: left;
 }
